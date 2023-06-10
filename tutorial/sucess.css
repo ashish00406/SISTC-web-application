@@ -1,0 +1,230 @@
+
+        /* Global Styles */
+        html {
+                    scroll-behavior: smooth;
+                }
+                
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            padding: 1rem;
+            background-color: #343a40;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            color: #fff;
+            margin-right: 15px;
+        }
+
+        .nav-link:hover {
+            color: #f8f9fa;
+        }
+
+        .navbar-toggler {
+            border-color: #fff;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        /* Header Section */
+        .header {
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .header h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .header .btn-primary {
+            margin-top: 1.5rem;
+        }
+
+        .pricing_and_details {
+            margin-left: 10%;
+        }
+
+        .pricing_and_details .card {
+            margin-bottom: 10px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 3rem 0;
+            background-color: #fff;
+        }
+
+        .feature {
+            margin-top: 2rem;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-description {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .content-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px #eee;
+        }
+
+        .content-text {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        /* Voting Section */
+        .voting {
+            padding: 3rem 0;
+            background-color: #fff;
+        }
+
+        .form-vote .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-vote .form-group label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .voting .btn-primary {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Table Section */
+        .table-section {
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .search-bar {
+            margin-bottom: 1.5rem;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* About Us Section */
+        .about-us {
+            padding: 3rem 0;
+            background-color: #fff;
+        }
+
+        .about-us h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .about-us h3 {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .about-us p {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .about-us .testimonials blockquote {
+            quotes: "\201C""\201D""\2018""\2019";
+            padding: 1em 2em;
+            border-left: 8px solid #78C0A8;
+            line-height: 1.6;
+            position: relative;
+            background: #EDEDED;
+        }
+
+        .about-us .testimonials blockquote::before {
+            color: #78C0A8;
+            content: open-quote;
+            font-size: 4em;
+            position: absolute;
+            left: 10px;
+            top: -10px;
+        }
+
+        .about-us .testimonials blockquote::after {
+            content: "";
+        }
+
+        .about-us .testimonials cite {
+            display: block;
+            text-align: right;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Footer Section */
+        .footer {
+            padding: 2rem 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #f8f9fa;
+        }
